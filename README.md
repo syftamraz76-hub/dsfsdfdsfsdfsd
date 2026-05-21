@@ -347,9 +347,9 @@
         </p>
 
         <div class="setup-card" id="setupBox">
-          <h3>إعداد Firebase مطلوب للأونلاين</h3>
+          <h3>Firebase مركّب داخل الملف ✅</h3>
           <p>
-            عشان تشتغل بين جهازك وجهازها لازم تحط إعدادات Firebase هنا أو داخل الكود في متغير
+            الإعدادات مركّبة داخل الكود. إذا ما اشتغل إنشاء الروم، فعّل Realtime Database من لوحة Firebase. تقدر أيضًا تعدل الإعدادات يدويًا من هنا في أي وقت.
             <b>FIREBASE_CONFIG</b>. بعد الحفظ يشتغل إنشاء ودخول الرومات.
           </p>
           <label>الصق firebaseConfig كامل هنا</label>
@@ -653,14 +653,15 @@
       ضع إعدادات Firebase هنا إذا تبي الملف يشتغل مباشرة بدون لصق الإعدادات من الواجهة.
       مثال:
       const FIREBASE_CONFIG = {
-        apiKey: "....",
-        authDomain: "....firebaseapp.com",
-        databaseURL: "https://....firebaseio.com",
-        projectId: "....",
-        storageBucket: "....appspot.com",
-        messagingSenderId: "....",
-        appId: "...."
-      };
+      "apiKey": "AIzaSyADMXsQoY1Y8hTv4UTnE-oAtuAcoRjqQgM",
+      "authDomain": "adsdasd-6672f.firebaseapp.com",
+      "databaseURL": "https://adsdasd-6672f-default-rtdb.firebaseio.com",
+      "projectId": "adsdasd-6672f",
+      "storageBucket": "adsdasd-6672f.firebasestorage.app",
+      "messagingSenderId": "743897028959",
+      "appId": "1:743897028959:web:e67a22d97b938324783eea",
+      "measurementId": "G-PXEFSCJ6EZ"
+};
     */
     const FIREBASE_CONFIG = {
       apiKey: "",
